@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3abc9566856b918478d8315cae7a05a3
+guid: 04874a2e330697d4b9fc6176be6df8da
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -954,13 +954,13 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: NewKylo 1(Clone)
+    - name: NewKylo(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Kylo Ren by Kyomi
-      parentName: NewKylo 1(Clone)
+      parentName: NewKylo(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 10.000002, y: 10.000002, z: 10.000002}
@@ -2026,7 +2026,7 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: M_MED_Galileo_Kayak_Pack.mo
-      parentName: NewKylo 1(Clone)
+      parentName: NewKylo(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 10.000002, y: 10.000002, z: 10.000002}

@@ -339,6 +339,7 @@ MonoBehaviour:
   - LeftLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &11404640
@@ -448,6 +449,7 @@ MonoBehaviour:
   - RightLowerLeg
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 1
   debug: 0
 --- !u!114 &11424034
@@ -684,6 +686,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 1
   debug: 0
 --- !u!114 &11468922
@@ -709,6 +712,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &11476414
@@ -780,6 +784,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &11483756
@@ -874,6 +879,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &11487874
@@ -15132,6 +15138,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &114000012058145300
@@ -15185,6 +15192,21 @@ MonoBehaviour:
   sounds:
   - {fileID: 8300000, guid: 08b5a5b778d6952438c6b3bedaa1e6af, type: 3}
   triggerTime: 0
+--- !u!114 &114018801189843882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6dcf6552bd02645a9ceb894d7a6cfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  sounds: []
+  triggerTime: 0
 --- !u!114 &114030386879188540
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -15208,6 +15230,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &114037387642052710
@@ -15261,6 +15284,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 1
   debug: 0
 --- !u!114 &114109424512592286
@@ -15344,6 +15368,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &114173081088732178
@@ -15401,6 +15426,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &114204451307792824
@@ -15445,6 +15471,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 1
+  senselessTime: 0
   resetAttackTrigger: 1
   debug: 0
 --- !u!114 &114231790030935560
@@ -15554,6 +15581,7 @@ MonoBehaviour:
   - LeftLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &114296478714166974
@@ -15823,6 +15851,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &114448441641897960
@@ -15867,6 +15896,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 1
   debug: 0
 --- !u!114 &114480230802912944
@@ -16055,6 +16085,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &114608773870077618
@@ -16080,6 +16111,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 1
   debug: 0
 --- !u!114 &114610283087860218
@@ -16161,6 +16193,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &114633244054452058
@@ -16193,6 +16226,32 @@ MonoBehaviour:
   tags:
   - IsRolling
   - IgnoreIK
+--- !u!114 &114659227491845508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9058122f6ec699438581f28f117350d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDamage: 0.05
+  endDamage: 0.9
+  damageMultiplier: 0
+  recoilID: 2
+  reactionID: 0
+  meleeAttackType: 1
+  damageType: 
+  bodyParts:
+  - RightLowerArm
+  ignoreDefense: 0
+  activeRagdoll: 0
+  senselessTime: 0
+  resetAttackTrigger: 1
+  debug: 0
 --- !u!114 &114661414617973910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16472,6 +16531,7 @@ MonoBehaviour:
   - RightLowerArm
   ignoreDefense: 0
   activeRagdoll: 0
+  senselessTime: 0
   resetAttackTrigger: 0
   debug: 0
 --- !u!114 &114838529179133088
@@ -17850,7 +17910,7 @@ BlendTree:
   m_Name: RunBlend
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400010, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: becf4bd5f6f4e2849a95cfa88e946fb1, type: 3}
     m_Threshold: -0.25
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -17858,7 +17918,7 @@ BlendTree:
     m_DirectBlendParameter: InputHorizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400012, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: becf4bd5f6f4e2849a95cfa88e946fb1, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -17866,7 +17926,7 @@ BlendTree:
     m_DirectBlendParameter: InputHorizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400008, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: becf4bd5f6f4e2849a95cfa88e946fb1, type: 3}
     m_Threshold: 0.25
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -19579,7 +19639,7 @@ BlendTree:
   m_Name: Idle
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: e6def7885940f9e4d886792e6ac0bca2, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -19618,7 +19678,7 @@ BlendTree:
   m_Name: SprintBlend
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400010, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: becf4bd5f6f4e2849a95cfa88e946fb1, type: 3}
     m_Threshold: -0.25
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1.2
@@ -19626,7 +19686,7 @@ BlendTree:
     m_DirectBlendParameter: InputHorizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400014, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: becf4bd5f6f4e2849a95cfa88e946fb1, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -19634,7 +19694,7 @@ BlendTree:
     m_DirectBlendParameter: InputHorizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400008, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: becf4bd5f6f4e2849a95cfa88e946fb1, type: 3}
     m_Threshold: 0.25
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1.2
@@ -19657,7 +19717,7 @@ BlendTree:
   m_Name: Walk
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400004, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: b0f10ecfe14765647a1528b56c0b1151, type: 3}
     m_Threshold: -0.25
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -19665,7 +19725,7 @@ BlendTree:
     m_DirectBlendParameter: InputHorizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400002, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: b0f10ecfe14765647a1528b56c0b1151, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -19673,7 +19733,7 @@ BlendTree:
     m_DirectBlendParameter: InputHorizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400006, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: b0f10ecfe14765647a1528b56c0b1151, type: 3}
     m_Threshold: 0.25
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -21172,6 +21232,28 @@ AnimatorStateTransition:
   m_TransitionOffset: 0
   m_ExitTime: 0.75
   m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &1101034075645504690
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 1
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -24092,6 +24174,28 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1101 &1101515736895932464
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 1102103812898099594}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.8125
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1101 &1101520854810835898
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -26913,7 +27017,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400052, guid: 5eaab4c94e2c4224dbde8bf202505a4f, type: 3}
+  m_Motion: {fileID: 7400000, guid: d8aca7303c98fd248b66037e020435af, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -27794,6 +27898,35 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &1102103812898099594
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: D
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 1101034075645504690}
+  m_StateMachineBehaviours:
+  - {fileID: 114659227491845508}
+  - {fileID: 114018801189843882}
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 1
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 1e8a42513d0eb29408e6061007627c1b, type: 3}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &1102109547313524240
 AnimatorState:
   serializedVersion: 5
@@ -28274,6 +28407,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101473625656561818}
+  - {fileID: 1101515736895932464}
   m_StateMachineBehaviours:
   - {fileID: 114101577822421078}
   - {fileID: 114304692954732270}
@@ -28286,7 +28420,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400050, guid: 71a860de405aaeb44ace152c21808003, type: 3}
+  m_Motion: {fileID: 7400000, guid: d65425ea9cacd284fbbde73f35d92cfe, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -29377,7 +29511,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: A
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101963861138605418}
@@ -29394,7 +29528,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400046, guid: 71a860de405aaeb44ace152c21808003, type: 3}
+  m_Motion: {fileID: 7400000, guid: 225e5cf282ca819458afc844c3f9cfbe, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -31162,7 +31296,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400048, guid: 71a860de405aaeb44ace152c21808003, type: 3}
+  m_Motion: {fileID: 7400000, guid: 50948a472a66e5b4bbff5bdffd3c09fa, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -31446,7 +31580,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5eaab4c94e2c4224dbde8bf202505a4f, type: 3}
+  m_Motion: {fileID: 7400000, guid: 67dcc08dc191f2d4195e2f84399c9a07, type: 3}
   m_Tag: 
   m_SpeedParameter: Direction
   m_MirrorParameter: 
@@ -33415,6 +33549,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 1102186001672383516}
     m_Position: {x: 240, y: -24, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102103812898099594}
+    m_Position: {x: 240, y: -96, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
