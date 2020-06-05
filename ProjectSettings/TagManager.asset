@@ -39,7 +39,8 @@ TagManager:
   - UI
   - 
   - 
-  - Player
+  - Controller
+  - DamageColliders
   - Enemy
   - CompanionAI
   - Triggers
@@ -49,7 +50,6 @@ TagManager:
   - BodyPart
   - BlockAIRayCast
   - PostProcessVolume
-  - 
   - 
   - 
   - 
