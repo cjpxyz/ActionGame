@@ -30,6 +30,7 @@ TagManager:
   - CoverPoint
   - Interactable
   - AIAction
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -50,7 +51,7 @@ TagManager:
   - BodyPart
   - BlockAIRayCast
   - PostProcessVolume
-  - 
+  - Ground
   - 
   - 
   - 
