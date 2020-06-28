@@ -1,436 +1,1292 @@
 fileFormatVersion: 2
 guid: 04874a2e330697d4b9fc6176be6df8da
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: backpack_root
-    100002: ball_l
-    100004: ball_r
-    100006: C_jaw
-    100008: C_lip_lower_mid
-    100010: calf_l
-    100012: calf_r
-    100014: calf_twist_01_l
-    100016: calf_twist_01_r
-    100018: calf_twist_02_l
-    100020: calf_twist_02_r
-    100022: cape_01_l
-    100024: cape_01_r
-    100026: cape_02_l
-    100028: cape_02_r
-    100030: cape_03_l
-    100032: cape_03_r
-    100034: cape_04_l
-    100036: cape_04_r
-    100038: cape_05_l
-    100040: cape_05_r
-    100042: cape_06_l
-    100044: cape_06_r
-    100046: cape_07_l
-    100048: cape_07_r
-    100050: cape_08_l
-    100052: cape_08_r
-    100054: cape_mid_01_l
-    100056: cape_mid_01_r
-    100058: cape_mid_02_l
-    100060: cape_mid_02_r
-    100062: cape_mid_03_l
-    100064: cape_mid_03_r
-    100066: cape_mid_04_l
-    100068: cape_mid_04_r
-    100070: cape_mid_05_l
-    100072: cape_mid_05_r
-    100074: cape_mid_06_l
-    100076: cape_mid_06_r
-    100078: cape_mid_07_l
-    100080: cape_mid_07_r
-    100082: clavicle_cape_l
-    100084: clavicle_cape_r
-    100086: clavicle_l
-    100088: clavicle_r
-    100090: dyn_crouch_collision
-    100092: dyn_downhood_alt_l_01
-    100094: dyn_downhood_alt_l_MSTR
-    100096: dyn_downhood_alt_mid_01
-    100098: dyn_downhood_alt_mid_MSTR
-    100100: dyn_downhood_alt_r_01
-    100102: dyn_downhood_alt_r_MSTR
-    100104: dyn_hood_back_pin
-    100106: dyn_hood_bk_01
-    100108: dyn_hood_bk_02
-    100110: dyn_hood_bk_03
-    100112: dyn_hood_bk_04
-    100114: dyn_hood_bk_l_01
-    100116: dyn_hood_bk_l_02
-    100118: dyn_hood_bk_l_03
-    100120: dyn_hood_bk_l_04
-    100122: dyn_hood_bk_l_MSTR
-    100124: dyn_hood_bk_MSTR
-    100126: dyn_hood_bk_r_01
-    100128: dyn_hood_bk_r_02
-    100130: dyn_hood_bk_r_03
-    100132: dyn_hood_bk_r_04
-    100134: dyn_hood_bk_r_MSTR
-    100136: dyn_hood_l_01
-    100138: dyn_hood_l_02
-    100140: dyn_hood_l_02_a
-    100142: dyn_hood_l_03
-    100144: dyn_hood_l_04
-    100146: dyn_hood_l_MSTR
-    100148: dyn_hood_r_01
-    100150: dyn_hood_r_02
-    100152: dyn_hood_r_02_a
-    100154: dyn_hood_r_03
-    100156: dyn_hood_r_04
-    100158: dyn_hood_r_MSTR
-    100160: dyn_hood_shoulder_pin_bk_l
-    100162: dyn_hood_shoulder_pin_bk_r
-    100164: dyn_hood_shoulder_pin_l
-    100166: dyn_hood_shoulder_pin_r
-    100168: dyn_hood_simple_bk_01
-    100170: dyn_hood_simple_bk_l_01
-    100172: dyn_hood_simple_bk_l_MSTR
-    100174: dyn_hood_simple_bk_MSTR
-    100176: dyn_hood_simple_bk_r_01
-    100178: dyn_hood_simple_bk_r_MSTR
-    100180: dyn_hood_simple_l_01
-    100182: dyn_hood_simple_l_02_a
-    100184: dyn_hood_simple_l_MSTR
-    100186: dyn_hood_simple_r_01
-    100188: dyn_hood_simple_r_02_a
-    100190: dyn_hood_simple_r_MSTR
-    100192: dyn_hood_top
-    100194: dyn_hood_top_MSTR
-    100196: dyn_skirt_bk_01
-    100198: dyn_skirt_bk_02
-    100200: dyn_skirt_bk_03
-    100202: dyn_skirt_bk_l_01
-    100204: dyn_skirt_bk_l_02
-    100206: dyn_skirt_bk_l_03
-    100208: dyn_skirt_bk_r_01
-    100210: dyn_skirt_bk_r_02
-    100212: dyn_skirt_bk_r_03
-    100214: dyn_skirt_fr_l_01
-    100216: dyn_skirt_fr_l_02
-    100218: dyn_skirt_fr_l_03
-    100220: dyn_skirt_fr_mid_l_01
-    100222: dyn_skirt_fr_mid_l_02
-    100224: dyn_skirt_fr_mid_l_03
-    100226: dyn_skirt_fr_mid_l_MSTR
-    100228: dyn_skirt_fr_mid_r_01
-    100230: dyn_skirt_fr_mid_r_02
-    100232: dyn_skirt_fr_mid_r_03
-    100234: dyn_skirt_fr_mid_r_MSTR
-    100236: dyn_skirt_fr_MSTR
-    100238: dyn_skirt_fr_r_01
-    100240: dyn_skirt_fr_r_02
-    100242: dyn_skirt_fr_r_03
-    100244: dyn_skirt_l_01
-    100246: dyn_skirt_l_02
-    100248: dyn_skirt_l_03
-    100250: dyn_skirt_l_MSTR
-    100252: dyn_skirt_r_01
-    100254: dyn_skirt_r_02
-    100256: dyn_skirt_r_03
-    100258: dyn_skirt_r_MSTR
-    100260: faceAttach
-    100262: foot_l
-    100264: foot_r
-    100266: hand_l
-    100268: hand_r
-    100270: head
-    100272: head_alt
-    100274: helmet_correction
-    100276: index_01_l
-    100278: index_01_r
-    100280: index_02_l
-    100282: index_02_r
-    100284: index_03_l
-    100286: index_03_r
-    100288: index_metacarpal_l
-    100290: index_metacarpal_r
-    100292: Kylo Ren by Kyomi
-    100294: L_cheek_inner
-    100296: L_lip_corner
-    100298: L_lip_lower_outer
-    100300: L_lip_upper_outer
-    100302: lowerarm_l
-    100304: lowerarm_r
-    100306: lowerarm_twist_01_l
-    100308: lowerarm_twist_01_r
-    100310: lowerarm_twist_02_l
-    100312: lowerarm_twist_02_r
-    100314: M_MED_Galileo_Kayak_Pack.mo
-    100316: middle_01_l
-    100318: middle_01_r
-    100320: middle_02_l
-    100322: middle_02_r
-    100324: middle_03_l
-    100326: middle_03_r
-    100328: middle_metacarpal_l
-    100330: middle_metacarpal_r
-    100332: neck_01
-    100334: neck_02
-    100336: //RootNode
-    100338: pelvis
-    100340: pinky_01_l
-    100342: pinky_01_r
-    100344: pinky_02_l
-    100346: pinky_02_r
-    100348: pinky_03_l
-    100350: pinky_03_r
-    100352: pinky_metacarpal_l
-    100354: pinky_metacarpal_r
-    100356: R_cheek_inner
-    100358: R_lip_corner
-    100360: R_lip_lower_outer
-    100362: R_lip_upper_outer
-    100364: ring_01_l
-    100366: ring_01_r
-    100368: ring_02_l
-    100370: ring_02_r
-    100372: ring_03_l
-    100374: ring_03_r
-    100376: ring_metacarpal_l
-    100378: ring_metacarpal_r
-    100380: spine_01
-    100382: spine_02
-    100384: spine_03
-    100386: spine_04
-    100388: spine_05
-    100390: thigh_l
-    100392: thigh_r
-    100394: thigh_twist_01_l
-    100396: thigh_twist_01_r
-    100398: thumb_01_l
-    100400: thumb_01_r
-    100402: thumb_02_l
-    100404: thumb_02_r
-    100406: thumb_03_l
-    100408: thumb_03_r
-    100410: upperarm_l
-    100412: upperarm_r
-    100414: upperarm_twist_01_l
-    100416: upperarm_twist_01_r
-    100418: upperarm_twist_02_l
-    100420: upperarm_twist_02_r
-    400000: backpack_root
-    400002: ball_l
-    400004: ball_r
-    400006: C_jaw
-    400008: C_lip_lower_mid
-    400010: calf_l
-    400012: calf_r
-    400014: calf_twist_01_l
-    400016: calf_twist_01_r
-    400018: calf_twist_02_l
-    400020: calf_twist_02_r
-    400022: cape_01_l
-    400024: cape_01_r
-    400026: cape_02_l
-    400028: cape_02_r
-    400030: cape_03_l
-    400032: cape_03_r
-    400034: cape_04_l
-    400036: cape_04_r
-    400038: cape_05_l
-    400040: cape_05_r
-    400042: cape_06_l
-    400044: cape_06_r
-    400046: cape_07_l
-    400048: cape_07_r
-    400050: cape_08_l
-    400052: cape_08_r
-    400054: cape_mid_01_l
-    400056: cape_mid_01_r
-    400058: cape_mid_02_l
-    400060: cape_mid_02_r
-    400062: cape_mid_03_l
-    400064: cape_mid_03_r
-    400066: cape_mid_04_l
-    400068: cape_mid_04_r
-    400070: cape_mid_05_l
-    400072: cape_mid_05_r
-    400074: cape_mid_06_l
-    400076: cape_mid_06_r
-    400078: cape_mid_07_l
-    400080: cape_mid_07_r
-    400082: clavicle_cape_l
-    400084: clavicle_cape_r
-    400086: clavicle_l
-    400088: clavicle_r
-    400090: dyn_crouch_collision
-    400092: dyn_downhood_alt_l_01
-    400094: dyn_downhood_alt_l_MSTR
-    400096: dyn_downhood_alt_mid_01
-    400098: dyn_downhood_alt_mid_MSTR
-    400100: dyn_downhood_alt_r_01
-    400102: dyn_downhood_alt_r_MSTR
-    400104: dyn_hood_back_pin
-    400106: dyn_hood_bk_01
-    400108: dyn_hood_bk_02
-    400110: dyn_hood_bk_03
-    400112: dyn_hood_bk_04
-    400114: dyn_hood_bk_l_01
-    400116: dyn_hood_bk_l_02
-    400118: dyn_hood_bk_l_03
-    400120: dyn_hood_bk_l_04
-    400122: dyn_hood_bk_l_MSTR
-    400124: dyn_hood_bk_MSTR
-    400126: dyn_hood_bk_r_01
-    400128: dyn_hood_bk_r_02
-    400130: dyn_hood_bk_r_03
-    400132: dyn_hood_bk_r_04
-    400134: dyn_hood_bk_r_MSTR
-    400136: dyn_hood_l_01
-    400138: dyn_hood_l_02
-    400140: dyn_hood_l_02_a
-    400142: dyn_hood_l_03
-    400144: dyn_hood_l_04
-    400146: dyn_hood_l_MSTR
-    400148: dyn_hood_r_01
-    400150: dyn_hood_r_02
-    400152: dyn_hood_r_02_a
-    400154: dyn_hood_r_03
-    400156: dyn_hood_r_04
-    400158: dyn_hood_r_MSTR
-    400160: dyn_hood_shoulder_pin_bk_l
-    400162: dyn_hood_shoulder_pin_bk_r
-    400164: dyn_hood_shoulder_pin_l
-    400166: dyn_hood_shoulder_pin_r
-    400168: dyn_hood_simple_bk_01
-    400170: dyn_hood_simple_bk_l_01
-    400172: dyn_hood_simple_bk_l_MSTR
-    400174: dyn_hood_simple_bk_MSTR
-    400176: dyn_hood_simple_bk_r_01
-    400178: dyn_hood_simple_bk_r_MSTR
-    400180: dyn_hood_simple_l_01
-    400182: dyn_hood_simple_l_02_a
-    400184: dyn_hood_simple_l_MSTR
-    400186: dyn_hood_simple_r_01
-    400188: dyn_hood_simple_r_02_a
-    400190: dyn_hood_simple_r_MSTR
-    400192: dyn_hood_top
-    400194: dyn_hood_top_MSTR
-    400196: dyn_skirt_bk_01
-    400198: dyn_skirt_bk_02
-    400200: dyn_skirt_bk_03
-    400202: dyn_skirt_bk_l_01
-    400204: dyn_skirt_bk_l_02
-    400206: dyn_skirt_bk_l_03
-    400208: dyn_skirt_bk_r_01
-    400210: dyn_skirt_bk_r_02
-    400212: dyn_skirt_bk_r_03
-    400214: dyn_skirt_fr_l_01
-    400216: dyn_skirt_fr_l_02
-    400218: dyn_skirt_fr_l_03
-    400220: dyn_skirt_fr_mid_l_01
-    400222: dyn_skirt_fr_mid_l_02
-    400224: dyn_skirt_fr_mid_l_03
-    400226: dyn_skirt_fr_mid_l_MSTR
-    400228: dyn_skirt_fr_mid_r_01
-    400230: dyn_skirt_fr_mid_r_02
-    400232: dyn_skirt_fr_mid_r_03
-    400234: dyn_skirt_fr_mid_r_MSTR
-    400236: dyn_skirt_fr_MSTR
-    400238: dyn_skirt_fr_r_01
-    400240: dyn_skirt_fr_r_02
-    400242: dyn_skirt_fr_r_03
-    400244: dyn_skirt_l_01
-    400246: dyn_skirt_l_02
-    400248: dyn_skirt_l_03
-    400250: dyn_skirt_l_MSTR
-    400252: dyn_skirt_r_01
-    400254: dyn_skirt_r_02
-    400256: dyn_skirt_r_03
-    400258: dyn_skirt_r_MSTR
-    400260: faceAttach
-    400262: foot_l
-    400264: foot_r
-    400266: hand_l
-    400268: hand_r
-    400270: head
-    400272: head_alt
-    400274: helmet_correction
-    400276: index_01_l
-    400278: index_01_r
-    400280: index_02_l
-    400282: index_02_r
-    400284: index_03_l
-    400286: index_03_r
-    400288: index_metacarpal_l
-    400290: index_metacarpal_r
-    400292: Kylo Ren by Kyomi
-    400294: L_cheek_inner
-    400296: L_lip_corner
-    400298: L_lip_lower_outer
-    400300: L_lip_upper_outer
-    400302: lowerarm_l
-    400304: lowerarm_r
-    400306: lowerarm_twist_01_l
-    400308: lowerarm_twist_01_r
-    400310: lowerarm_twist_02_l
-    400312: lowerarm_twist_02_r
-    400314: M_MED_Galileo_Kayak_Pack.mo
-    400316: middle_01_l
-    400318: middle_01_r
-    400320: middle_02_l
-    400322: middle_02_r
-    400324: middle_03_l
-    400326: middle_03_r
-    400328: middle_metacarpal_l
-    400330: middle_metacarpal_r
-    400332: neck_01
-    400334: neck_02
-    400336: //RootNode
-    400338: pelvis
-    400340: pinky_01_l
-    400342: pinky_01_r
-    400344: pinky_02_l
-    400346: pinky_02_r
-    400348: pinky_03_l
-    400350: pinky_03_r
-    400352: pinky_metacarpal_l
-    400354: pinky_metacarpal_r
-    400356: R_cheek_inner
-    400358: R_lip_corner
-    400360: R_lip_lower_outer
-    400362: R_lip_upper_outer
-    400364: ring_01_l
-    400366: ring_01_r
-    400368: ring_02_l
-    400370: ring_02_r
-    400372: ring_03_l
-    400374: ring_03_r
-    400376: ring_metacarpal_l
-    400378: ring_metacarpal_r
-    400380: spine_01
-    400382: spine_02
-    400384: spine_03
-    400386: spine_04
-    400388: spine_05
-    400390: thigh_l
-    400392: thigh_r
-    400394: thigh_twist_01_l
-    400396: thigh_twist_01_r
-    400398: thumb_01_l
-    400400: thumb_01_r
-    400402: thumb_02_l
-    400404: thumb_02_r
-    400406: thumb_03_l
-    400408: thumb_03_r
-    400410: upperarm_l
-    400412: upperarm_r
-    400414: upperarm_twist_01_l
-    400416: upperarm_twist_01_r
-    400418: upperarm_twist_02_l
-    400420: upperarm_twist_02_r
-    2100000: Cape
-    2100002: Body
-    2100004: Head
-    4300000: M_MED_Galileo_Kayak_Pack.mo
-    9500000: //RootNode
-    13700000: M_MED_Galileo_Kayak_Pack.mo
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: backpack_root
+  - first:
+      1: 100002
+    second: ball_l
+  - first:
+      1: 100004
+    second: ball_r
+  - first:
+      1: 100006
+    second: C_jaw
+  - first:
+      1: 100008
+    second: C_lip_lower_mid
+  - first:
+      1: 100010
+    second: calf_l
+  - first:
+      1: 100012
+    second: calf_r
+  - first:
+      1: 100014
+    second: calf_twist_01_l
+  - first:
+      1: 100016
+    second: calf_twist_01_r
+  - first:
+      1: 100018
+    second: calf_twist_02_l
+  - first:
+      1: 100020
+    second: calf_twist_02_r
+  - first:
+      1: 100022
+    second: cape_01_l
+  - first:
+      1: 100024
+    second: cape_01_r
+  - first:
+      1: 100026
+    second: cape_02_l
+  - first:
+      1: 100028
+    second: cape_02_r
+  - first:
+      1: 100030
+    second: cape_03_l
+  - first:
+      1: 100032
+    second: cape_03_r
+  - first:
+      1: 100034
+    second: cape_04_l
+  - first:
+      1: 100036
+    second: cape_04_r
+  - first:
+      1: 100038
+    second: cape_05_l
+  - first:
+      1: 100040
+    second: cape_05_r
+  - first:
+      1: 100042
+    second: cape_06_l
+  - first:
+      1: 100044
+    second: cape_06_r
+  - first:
+      1: 100046
+    second: cape_07_l
+  - first:
+      1: 100048
+    second: cape_07_r
+  - first:
+      1: 100050
+    second: cape_08_l
+  - first:
+      1: 100052
+    second: cape_08_r
+  - first:
+      1: 100054
+    second: cape_mid_01_l
+  - first:
+      1: 100056
+    second: cape_mid_01_r
+  - first:
+      1: 100058
+    second: cape_mid_02_l
+  - first:
+      1: 100060
+    second: cape_mid_02_r
+  - first:
+      1: 100062
+    second: cape_mid_03_l
+  - first:
+      1: 100064
+    second: cape_mid_03_r
+  - first:
+      1: 100066
+    second: cape_mid_04_l
+  - first:
+      1: 100068
+    second: cape_mid_04_r
+  - first:
+      1: 100070
+    second: cape_mid_05_l
+  - first:
+      1: 100072
+    second: cape_mid_05_r
+  - first:
+      1: 100074
+    second: cape_mid_06_l
+  - first:
+      1: 100076
+    second: cape_mid_06_r
+  - first:
+      1: 100078
+    second: cape_mid_07_l
+  - first:
+      1: 100080
+    second: cape_mid_07_r
+  - first:
+      1: 100082
+    second: clavicle_cape_l
+  - first:
+      1: 100084
+    second: clavicle_cape_r
+  - first:
+      1: 100086
+    second: clavicle_l
+  - first:
+      1: 100088
+    second: clavicle_r
+  - first:
+      1: 100090
+    second: dyn_crouch_collision
+  - first:
+      1: 100092
+    second: dyn_downhood_alt_l_01
+  - first:
+      1: 100094
+    second: dyn_downhood_alt_l_MSTR
+  - first:
+      1: 100096
+    second: dyn_downhood_alt_mid_01
+  - first:
+      1: 100098
+    second: dyn_downhood_alt_mid_MSTR
+  - first:
+      1: 100100
+    second: dyn_downhood_alt_r_01
+  - first:
+      1: 100102
+    second: dyn_downhood_alt_r_MSTR
+  - first:
+      1: 100104
+    second: dyn_hood_back_pin
+  - first:
+      1: 100106
+    second: dyn_hood_bk_01
+  - first:
+      1: 100108
+    second: dyn_hood_bk_02
+  - first:
+      1: 100110
+    second: dyn_hood_bk_03
+  - first:
+      1: 100112
+    second: dyn_hood_bk_04
+  - first:
+      1: 100114
+    second: dyn_hood_bk_l_01
+  - first:
+      1: 100116
+    second: dyn_hood_bk_l_02
+  - first:
+      1: 100118
+    second: dyn_hood_bk_l_03
+  - first:
+      1: 100120
+    second: dyn_hood_bk_l_04
+  - first:
+      1: 100122
+    second: dyn_hood_bk_l_MSTR
+  - first:
+      1: 100124
+    second: dyn_hood_bk_MSTR
+  - first:
+      1: 100126
+    second: dyn_hood_bk_r_01
+  - first:
+      1: 100128
+    second: dyn_hood_bk_r_02
+  - first:
+      1: 100130
+    second: dyn_hood_bk_r_03
+  - first:
+      1: 100132
+    second: dyn_hood_bk_r_04
+  - first:
+      1: 100134
+    second: dyn_hood_bk_r_MSTR
+  - first:
+      1: 100136
+    second: dyn_hood_l_01
+  - first:
+      1: 100138
+    second: dyn_hood_l_02
+  - first:
+      1: 100140
+    second: dyn_hood_l_02_a
+  - first:
+      1: 100142
+    second: dyn_hood_l_03
+  - first:
+      1: 100144
+    second: dyn_hood_l_04
+  - first:
+      1: 100146
+    second: dyn_hood_l_MSTR
+  - first:
+      1: 100148
+    second: dyn_hood_r_01
+  - first:
+      1: 100150
+    second: dyn_hood_r_02
+  - first:
+      1: 100152
+    second: dyn_hood_r_02_a
+  - first:
+      1: 100154
+    second: dyn_hood_r_03
+  - first:
+      1: 100156
+    second: dyn_hood_r_04
+  - first:
+      1: 100158
+    second: dyn_hood_r_MSTR
+  - first:
+      1: 100160
+    second: dyn_hood_shoulder_pin_bk_l
+  - first:
+      1: 100162
+    second: dyn_hood_shoulder_pin_bk_r
+  - first:
+      1: 100164
+    second: dyn_hood_shoulder_pin_l
+  - first:
+      1: 100166
+    second: dyn_hood_shoulder_pin_r
+  - first:
+      1: 100168
+    second: dyn_hood_simple_bk_01
+  - first:
+      1: 100170
+    second: dyn_hood_simple_bk_l_01
+  - first:
+      1: 100172
+    second: dyn_hood_simple_bk_l_MSTR
+  - first:
+      1: 100174
+    second: dyn_hood_simple_bk_MSTR
+  - first:
+      1: 100176
+    second: dyn_hood_simple_bk_r_01
+  - first:
+      1: 100178
+    second: dyn_hood_simple_bk_r_MSTR
+  - first:
+      1: 100180
+    second: dyn_hood_simple_l_01
+  - first:
+      1: 100182
+    second: dyn_hood_simple_l_02_a
+  - first:
+      1: 100184
+    second: dyn_hood_simple_l_MSTR
+  - first:
+      1: 100186
+    second: dyn_hood_simple_r_01
+  - first:
+      1: 100188
+    second: dyn_hood_simple_r_02_a
+  - first:
+      1: 100190
+    second: dyn_hood_simple_r_MSTR
+  - first:
+      1: 100192
+    second: dyn_hood_top
+  - first:
+      1: 100194
+    second: dyn_hood_top_MSTR
+  - first:
+      1: 100196
+    second: dyn_skirt_bk_01
+  - first:
+      1: 100198
+    second: dyn_skirt_bk_02
+  - first:
+      1: 100200
+    second: dyn_skirt_bk_03
+  - first:
+      1: 100202
+    second: dyn_skirt_bk_l_01
+  - first:
+      1: 100204
+    second: dyn_skirt_bk_l_02
+  - first:
+      1: 100206
+    second: dyn_skirt_bk_l_03
+  - first:
+      1: 100208
+    second: dyn_skirt_bk_r_01
+  - first:
+      1: 100210
+    second: dyn_skirt_bk_r_02
+  - first:
+      1: 100212
+    second: dyn_skirt_bk_r_03
+  - first:
+      1: 100214
+    second: dyn_skirt_fr_l_01
+  - first:
+      1: 100216
+    second: dyn_skirt_fr_l_02
+  - first:
+      1: 100218
+    second: dyn_skirt_fr_l_03
+  - first:
+      1: 100220
+    second: dyn_skirt_fr_mid_l_01
+  - first:
+      1: 100222
+    second: dyn_skirt_fr_mid_l_02
+  - first:
+      1: 100224
+    second: dyn_skirt_fr_mid_l_03
+  - first:
+      1: 100226
+    second: dyn_skirt_fr_mid_l_MSTR
+  - first:
+      1: 100228
+    second: dyn_skirt_fr_mid_r_01
+  - first:
+      1: 100230
+    second: dyn_skirt_fr_mid_r_02
+  - first:
+      1: 100232
+    second: dyn_skirt_fr_mid_r_03
+  - first:
+      1: 100234
+    second: dyn_skirt_fr_mid_r_MSTR
+  - first:
+      1: 100236
+    second: dyn_skirt_fr_MSTR
+  - first:
+      1: 100238
+    second: dyn_skirt_fr_r_01
+  - first:
+      1: 100240
+    second: dyn_skirt_fr_r_02
+  - first:
+      1: 100242
+    second: dyn_skirt_fr_r_03
+  - first:
+      1: 100244
+    second: dyn_skirt_l_01
+  - first:
+      1: 100246
+    second: dyn_skirt_l_02
+  - first:
+      1: 100248
+    second: dyn_skirt_l_03
+  - first:
+      1: 100250
+    second: dyn_skirt_l_MSTR
+  - first:
+      1: 100252
+    second: dyn_skirt_r_01
+  - first:
+      1: 100254
+    second: dyn_skirt_r_02
+  - first:
+      1: 100256
+    second: dyn_skirt_r_03
+  - first:
+      1: 100258
+    second: dyn_skirt_r_MSTR
+  - first:
+      1: 100260
+    second: faceAttach
+  - first:
+      1: 100262
+    second: foot_l
+  - first:
+      1: 100264
+    second: foot_r
+  - first:
+      1: 100266
+    second: hand_l
+  - first:
+      1: 100268
+    second: hand_r
+  - first:
+      1: 100270
+    second: head
+  - first:
+      1: 100272
+    second: head_alt
+  - first:
+      1: 100274
+    second: helmet_correction
+  - first:
+      1: 100276
+    second: index_01_l
+  - first:
+      1: 100278
+    second: index_01_r
+  - first:
+      1: 100280
+    second: index_02_l
+  - first:
+      1: 100282
+    second: index_02_r
+  - first:
+      1: 100284
+    second: index_03_l
+  - first:
+      1: 100286
+    second: index_03_r
+  - first:
+      1: 100288
+    second: index_metacarpal_l
+  - first:
+      1: 100290
+    second: index_metacarpal_r
+  - first:
+      1: 100292
+    second: Kylo Ren by Kyomi
+  - first:
+      1: 100294
+    second: L_cheek_inner
+  - first:
+      1: 100296
+    second: L_lip_corner
+  - first:
+      1: 100298
+    second: L_lip_lower_outer
+  - first:
+      1: 100300
+    second: L_lip_upper_outer
+  - first:
+      1: 100302
+    second: lowerarm_l
+  - first:
+      1: 100304
+    second: lowerarm_r
+  - first:
+      1: 100306
+    second: lowerarm_twist_01_l
+  - first:
+      1: 100308
+    second: lowerarm_twist_01_r
+  - first:
+      1: 100310
+    second: lowerarm_twist_02_l
+  - first:
+      1: 100312
+    second: lowerarm_twist_02_r
+  - first:
+      1: 100314
+    second: M_MED_Galileo_Kayak_Pack.mo
+  - first:
+      1: 100316
+    second: middle_01_l
+  - first:
+      1: 100318
+    second: middle_01_r
+  - first:
+      1: 100320
+    second: middle_02_l
+  - first:
+      1: 100322
+    second: middle_02_r
+  - first:
+      1: 100324
+    second: middle_03_l
+  - first:
+      1: 100326
+    second: middle_03_r
+  - first:
+      1: 100328
+    second: middle_metacarpal_l
+  - first:
+      1: 100330
+    second: middle_metacarpal_r
+  - first:
+      1: 100332
+    second: neck_01
+  - first:
+      1: 100334
+    second: neck_02
+  - first:
+      1: 100336
+    second: //RootNode
+  - first:
+      1: 100338
+    second: pelvis
+  - first:
+      1: 100340
+    second: pinky_01_l
+  - first:
+      1: 100342
+    second: pinky_01_r
+  - first:
+      1: 100344
+    second: pinky_02_l
+  - first:
+      1: 100346
+    second: pinky_02_r
+  - first:
+      1: 100348
+    second: pinky_03_l
+  - first:
+      1: 100350
+    second: pinky_03_r
+  - first:
+      1: 100352
+    second: pinky_metacarpal_l
+  - first:
+      1: 100354
+    second: pinky_metacarpal_r
+  - first:
+      1: 100356
+    second: R_cheek_inner
+  - first:
+      1: 100358
+    second: R_lip_corner
+  - first:
+      1: 100360
+    second: R_lip_lower_outer
+  - first:
+      1: 100362
+    second: R_lip_upper_outer
+  - first:
+      1: 100364
+    second: ring_01_l
+  - first:
+      1: 100366
+    second: ring_01_r
+  - first:
+      1: 100368
+    second: ring_02_l
+  - first:
+      1: 100370
+    second: ring_02_r
+  - first:
+      1: 100372
+    second: ring_03_l
+  - first:
+      1: 100374
+    second: ring_03_r
+  - first:
+      1: 100376
+    second: ring_metacarpal_l
+  - first:
+      1: 100378
+    second: ring_metacarpal_r
+  - first:
+      1: 100380
+    second: spine_01
+  - first:
+      1: 100382
+    second: spine_02
+  - first:
+      1: 100384
+    second: spine_03
+  - first:
+      1: 100386
+    second: spine_04
+  - first:
+      1: 100388
+    second: spine_05
+  - first:
+      1: 100390
+    second: thigh_l
+  - first:
+      1: 100392
+    second: thigh_r
+  - first:
+      1: 100394
+    second: thigh_twist_01_l
+  - first:
+      1: 100396
+    second: thigh_twist_01_r
+  - first:
+      1: 100398
+    second: thumb_01_l
+  - first:
+      1: 100400
+    second: thumb_01_r
+  - first:
+      1: 100402
+    second: thumb_02_l
+  - first:
+      1: 100404
+    second: thumb_02_r
+  - first:
+      1: 100406
+    second: thumb_03_l
+  - first:
+      1: 100408
+    second: thumb_03_r
+  - first:
+      1: 100410
+    second: upperarm_l
+  - first:
+      1: 100412
+    second: upperarm_r
+  - first:
+      1: 100414
+    second: upperarm_twist_01_l
+  - first:
+      1: 100416
+    second: upperarm_twist_01_r
+  - first:
+      1: 100418
+    second: upperarm_twist_02_l
+  - first:
+      1: 100420
+    second: upperarm_twist_02_r
+  - first:
+      4: 400000
+    second: backpack_root
+  - first:
+      4: 400002
+    second: ball_l
+  - first:
+      4: 400004
+    second: ball_r
+  - first:
+      4: 400006
+    second: C_jaw
+  - first:
+      4: 400008
+    second: C_lip_lower_mid
+  - first:
+      4: 400010
+    second: calf_l
+  - first:
+      4: 400012
+    second: calf_r
+  - first:
+      4: 400014
+    second: calf_twist_01_l
+  - first:
+      4: 400016
+    second: calf_twist_01_r
+  - first:
+      4: 400018
+    second: calf_twist_02_l
+  - first:
+      4: 400020
+    second: calf_twist_02_r
+  - first:
+      4: 400022
+    second: cape_01_l
+  - first:
+      4: 400024
+    second: cape_01_r
+  - first:
+      4: 400026
+    second: cape_02_l
+  - first:
+      4: 400028
+    second: cape_02_r
+  - first:
+      4: 400030
+    second: cape_03_l
+  - first:
+      4: 400032
+    second: cape_03_r
+  - first:
+      4: 400034
+    second: cape_04_l
+  - first:
+      4: 400036
+    second: cape_04_r
+  - first:
+      4: 400038
+    second: cape_05_l
+  - first:
+      4: 400040
+    second: cape_05_r
+  - first:
+      4: 400042
+    second: cape_06_l
+  - first:
+      4: 400044
+    second: cape_06_r
+  - first:
+      4: 400046
+    second: cape_07_l
+  - first:
+      4: 400048
+    second: cape_07_r
+  - first:
+      4: 400050
+    second: cape_08_l
+  - first:
+      4: 400052
+    second: cape_08_r
+  - first:
+      4: 400054
+    second: cape_mid_01_l
+  - first:
+      4: 400056
+    second: cape_mid_01_r
+  - first:
+      4: 400058
+    second: cape_mid_02_l
+  - first:
+      4: 400060
+    second: cape_mid_02_r
+  - first:
+      4: 400062
+    second: cape_mid_03_l
+  - first:
+      4: 400064
+    second: cape_mid_03_r
+  - first:
+      4: 400066
+    second: cape_mid_04_l
+  - first:
+      4: 400068
+    second: cape_mid_04_r
+  - first:
+      4: 400070
+    second: cape_mid_05_l
+  - first:
+      4: 400072
+    second: cape_mid_05_r
+  - first:
+      4: 400074
+    second: cape_mid_06_l
+  - first:
+      4: 400076
+    second: cape_mid_06_r
+  - first:
+      4: 400078
+    second: cape_mid_07_l
+  - first:
+      4: 400080
+    second: cape_mid_07_r
+  - first:
+      4: 400082
+    second: clavicle_cape_l
+  - first:
+      4: 400084
+    second: clavicle_cape_r
+  - first:
+      4: 400086
+    second: clavicle_l
+  - first:
+      4: 400088
+    second: clavicle_r
+  - first:
+      4: 400090
+    second: dyn_crouch_collision
+  - first:
+      4: 400092
+    second: dyn_downhood_alt_l_01
+  - first:
+      4: 400094
+    second: dyn_downhood_alt_l_MSTR
+  - first:
+      4: 400096
+    second: dyn_downhood_alt_mid_01
+  - first:
+      4: 400098
+    second: dyn_downhood_alt_mid_MSTR
+  - first:
+      4: 400100
+    second: dyn_downhood_alt_r_01
+  - first:
+      4: 400102
+    second: dyn_downhood_alt_r_MSTR
+  - first:
+      4: 400104
+    second: dyn_hood_back_pin
+  - first:
+      4: 400106
+    second: dyn_hood_bk_01
+  - first:
+      4: 400108
+    second: dyn_hood_bk_02
+  - first:
+      4: 400110
+    second: dyn_hood_bk_03
+  - first:
+      4: 400112
+    second: dyn_hood_bk_04
+  - first:
+      4: 400114
+    second: dyn_hood_bk_l_01
+  - first:
+      4: 400116
+    second: dyn_hood_bk_l_02
+  - first:
+      4: 400118
+    second: dyn_hood_bk_l_03
+  - first:
+      4: 400120
+    second: dyn_hood_bk_l_04
+  - first:
+      4: 400122
+    second: dyn_hood_bk_l_MSTR
+  - first:
+      4: 400124
+    second: dyn_hood_bk_MSTR
+  - first:
+      4: 400126
+    second: dyn_hood_bk_r_01
+  - first:
+      4: 400128
+    second: dyn_hood_bk_r_02
+  - first:
+      4: 400130
+    second: dyn_hood_bk_r_03
+  - first:
+      4: 400132
+    second: dyn_hood_bk_r_04
+  - first:
+      4: 400134
+    second: dyn_hood_bk_r_MSTR
+  - first:
+      4: 400136
+    second: dyn_hood_l_01
+  - first:
+      4: 400138
+    second: dyn_hood_l_02
+  - first:
+      4: 400140
+    second: dyn_hood_l_02_a
+  - first:
+      4: 400142
+    second: dyn_hood_l_03
+  - first:
+      4: 400144
+    second: dyn_hood_l_04
+  - first:
+      4: 400146
+    second: dyn_hood_l_MSTR
+  - first:
+      4: 400148
+    second: dyn_hood_r_01
+  - first:
+      4: 400150
+    second: dyn_hood_r_02
+  - first:
+      4: 400152
+    second: dyn_hood_r_02_a
+  - first:
+      4: 400154
+    second: dyn_hood_r_03
+  - first:
+      4: 400156
+    second: dyn_hood_r_04
+  - first:
+      4: 400158
+    second: dyn_hood_r_MSTR
+  - first:
+      4: 400160
+    second: dyn_hood_shoulder_pin_bk_l
+  - first:
+      4: 400162
+    second: dyn_hood_shoulder_pin_bk_r
+  - first:
+      4: 400164
+    second: dyn_hood_shoulder_pin_l
+  - first:
+      4: 400166
+    second: dyn_hood_shoulder_pin_r
+  - first:
+      4: 400168
+    second: dyn_hood_simple_bk_01
+  - first:
+      4: 400170
+    second: dyn_hood_simple_bk_l_01
+  - first:
+      4: 400172
+    second: dyn_hood_simple_bk_l_MSTR
+  - first:
+      4: 400174
+    second: dyn_hood_simple_bk_MSTR
+  - first:
+      4: 400176
+    second: dyn_hood_simple_bk_r_01
+  - first:
+      4: 400178
+    second: dyn_hood_simple_bk_r_MSTR
+  - first:
+      4: 400180
+    second: dyn_hood_simple_l_01
+  - first:
+      4: 400182
+    second: dyn_hood_simple_l_02_a
+  - first:
+      4: 400184
+    second: dyn_hood_simple_l_MSTR
+  - first:
+      4: 400186
+    second: dyn_hood_simple_r_01
+  - first:
+      4: 400188
+    second: dyn_hood_simple_r_02_a
+  - first:
+      4: 400190
+    second: dyn_hood_simple_r_MSTR
+  - first:
+      4: 400192
+    second: dyn_hood_top
+  - first:
+      4: 400194
+    second: dyn_hood_top_MSTR
+  - first:
+      4: 400196
+    second: dyn_skirt_bk_01
+  - first:
+      4: 400198
+    second: dyn_skirt_bk_02
+  - first:
+      4: 400200
+    second: dyn_skirt_bk_03
+  - first:
+      4: 400202
+    second: dyn_skirt_bk_l_01
+  - first:
+      4: 400204
+    second: dyn_skirt_bk_l_02
+  - first:
+      4: 400206
+    second: dyn_skirt_bk_l_03
+  - first:
+      4: 400208
+    second: dyn_skirt_bk_r_01
+  - first:
+      4: 400210
+    second: dyn_skirt_bk_r_02
+  - first:
+      4: 400212
+    second: dyn_skirt_bk_r_03
+  - first:
+      4: 400214
+    second: dyn_skirt_fr_l_01
+  - first:
+      4: 400216
+    second: dyn_skirt_fr_l_02
+  - first:
+      4: 400218
+    second: dyn_skirt_fr_l_03
+  - first:
+      4: 400220
+    second: dyn_skirt_fr_mid_l_01
+  - first:
+      4: 400222
+    second: dyn_skirt_fr_mid_l_02
+  - first:
+      4: 400224
+    second: dyn_skirt_fr_mid_l_03
+  - first:
+      4: 400226
+    second: dyn_skirt_fr_mid_l_MSTR
+  - first:
+      4: 400228
+    second: dyn_skirt_fr_mid_r_01
+  - first:
+      4: 400230
+    second: dyn_skirt_fr_mid_r_02
+  - first:
+      4: 400232
+    second: dyn_skirt_fr_mid_r_03
+  - first:
+      4: 400234
+    second: dyn_skirt_fr_mid_r_MSTR
+  - first:
+      4: 400236
+    second: dyn_skirt_fr_MSTR
+  - first:
+      4: 400238
+    second: dyn_skirt_fr_r_01
+  - first:
+      4: 400240
+    second: dyn_skirt_fr_r_02
+  - first:
+      4: 400242
+    second: dyn_skirt_fr_r_03
+  - first:
+      4: 400244
+    second: dyn_skirt_l_01
+  - first:
+      4: 400246
+    second: dyn_skirt_l_02
+  - first:
+      4: 400248
+    second: dyn_skirt_l_03
+  - first:
+      4: 400250
+    second: dyn_skirt_l_MSTR
+  - first:
+      4: 400252
+    second: dyn_skirt_r_01
+  - first:
+      4: 400254
+    second: dyn_skirt_r_02
+  - first:
+      4: 400256
+    second: dyn_skirt_r_03
+  - first:
+      4: 400258
+    second: dyn_skirt_r_MSTR
+  - first:
+      4: 400260
+    second: faceAttach
+  - first:
+      4: 400262
+    second: foot_l
+  - first:
+      4: 400264
+    second: foot_r
+  - first:
+      4: 400266
+    second: hand_l
+  - first:
+      4: 400268
+    second: hand_r
+  - first:
+      4: 400270
+    second: head
+  - first:
+      4: 400272
+    second: head_alt
+  - first:
+      4: 400274
+    second: helmet_correction
+  - first:
+      4: 400276
+    second: index_01_l
+  - first:
+      4: 400278
+    second: index_01_r
+  - first:
+      4: 400280
+    second: index_02_l
+  - first:
+      4: 400282
+    second: index_02_r
+  - first:
+      4: 400284
+    second: index_03_l
+  - first:
+      4: 400286
+    second: index_03_r
+  - first:
+      4: 400288
+    second: index_metacarpal_l
+  - first:
+      4: 400290
+    second: index_metacarpal_r
+  - first:
+      4: 400292
+    second: Kylo Ren by Kyomi
+  - first:
+      4: 400294
+    second: L_cheek_inner
+  - first:
+      4: 400296
+    second: L_lip_corner
+  - first:
+      4: 400298
+    second: L_lip_lower_outer
+  - first:
+      4: 400300
+    second: L_lip_upper_outer
+  - first:
+      4: 400302
+    second: lowerarm_l
+  - first:
+      4: 400304
+    second: lowerarm_r
+  - first:
+      4: 400306
+    second: lowerarm_twist_01_l
+  - first:
+      4: 400308
+    second: lowerarm_twist_01_r
+  - first:
+      4: 400310
+    second: lowerarm_twist_02_l
+  - first:
+      4: 400312
+    second: lowerarm_twist_02_r
+  - first:
+      4: 400314
+    second: M_MED_Galileo_Kayak_Pack.mo
+  - first:
+      4: 400316
+    second: middle_01_l
+  - first:
+      4: 400318
+    second: middle_01_r
+  - first:
+      4: 400320
+    second: middle_02_l
+  - first:
+      4: 400322
+    second: middle_02_r
+  - first:
+      4: 400324
+    second: middle_03_l
+  - first:
+      4: 400326
+    second: middle_03_r
+  - first:
+      4: 400328
+    second: middle_metacarpal_l
+  - first:
+      4: 400330
+    second: middle_metacarpal_r
+  - first:
+      4: 400332
+    second: neck_01
+  - first:
+      4: 400334
+    second: neck_02
+  - first:
+      4: 400336
+    second: //RootNode
+  - first:
+      4: 400338
+    second: pelvis
+  - first:
+      4: 400340
+    second: pinky_01_l
+  - first:
+      4: 400342
+    second: pinky_01_r
+  - first:
+      4: 400344
+    second: pinky_02_l
+  - first:
+      4: 400346
+    second: pinky_02_r
+  - first:
+      4: 400348
+    second: pinky_03_l
+  - first:
+      4: 400350
+    second: pinky_03_r
+  - first:
+      4: 400352
+    second: pinky_metacarpal_l
+  - first:
+      4: 400354
+    second: pinky_metacarpal_r
+  - first:
+      4: 400356
+    second: R_cheek_inner
+  - first:
+      4: 400358
+    second: R_lip_corner
+  - first:
+      4: 400360
+    second: R_lip_lower_outer
+  - first:
+      4: 400362
+    second: R_lip_upper_outer
+  - first:
+      4: 400364
+    second: ring_01_l
+  - first:
+      4: 400366
+    second: ring_01_r
+  - first:
+      4: 400368
+    second: ring_02_l
+  - first:
+      4: 400370
+    second: ring_02_r
+  - first:
+      4: 400372
+    second: ring_03_l
+  - first:
+      4: 400374
+    second: ring_03_r
+  - first:
+      4: 400376
+    second: ring_metacarpal_l
+  - first:
+      4: 400378
+    second: ring_metacarpal_r
+  - first:
+      4: 400380
+    second: spine_01
+  - first:
+      4: 400382
+    second: spine_02
+  - first:
+      4: 400384
+    second: spine_03
+  - first:
+      4: 400386
+    second: spine_04
+  - first:
+      4: 400388
+    second: spine_05
+  - first:
+      4: 400390
+    second: thigh_l
+  - first:
+      4: 400392
+    second: thigh_r
+  - first:
+      4: 400394
+    second: thigh_twist_01_l
+  - first:
+      4: 400396
+    second: thigh_twist_01_r
+  - first:
+      4: 400398
+    second: thumb_01_l
+  - first:
+      4: 400400
+    second: thumb_01_r
+  - first:
+      4: 400402
+    second: thumb_02_l
+  - first:
+      4: 400404
+    second: thumb_02_r
+  - first:
+      4: 400406
+    second: thumb_03_l
+  - first:
+      4: 400408
+    second: thumb_03_r
+  - first:
+      4: 400410
+    second: upperarm_l
+  - first:
+      4: 400412
+    second: upperarm_r
+  - first:
+      4: 400414
+    second: upperarm_twist_01_l
+  - first:
+      4: 400416
+    second: upperarm_twist_01_r
+  - first:
+      4: 400418
+    second: upperarm_twist_02_l
+  - first:
+      4: 400420
+    second: upperarm_twist_02_r
+  - first:
+      21: 2100000
+    second: Cape
+  - first:
+      21: 2100002
+    second: Body
+  - first:
+      21: 2100004
+    second: Head
+  - first:
+      43: 4300000
+    second: M_MED_Galileo_Kayak_Pack.mo
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: M_MED_Galileo_Kayak_Pack.mo
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -448,7 +1304,7 @@ ModelImporter:
       name: Head
     second: {fileID: 2100000, guid: b982e6bb2ce602e4c8125aaa2a08ec49, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -456,7 +1312,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -481,25 +1337,28 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -508,10 +1367,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: pelvis
       humanName: Hips
@@ -577,7 +1436,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: spine_02
+    - boneName: spine_03
       humanName: Chest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -649,7 +1508,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: lowerarm_twist_01_l
+    - boneName: hand_l
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -657,7 +1516,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: lowerarm_twist_01_r
+    - boneName: hand_r
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -945,7 +1804,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: spine_03
+    - boneName: spine_05
       humanName: UpperChest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -959,6 +1818,11 @@ ModelImporter:
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+    - name: M_MED_Galileo_Kayak_Pack.mo
+      parentName: NewKylo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 10.000002, y: 10.000002, z: 10.000002}
     - name: Kylo Ren by Kyomi
       parentName: NewKylo(Clone)
       position: {x: -0, y: 0, z: 0}
@@ -1002,12 +1866,12 @@ ModelImporter:
     - name: upperarm_l
       parentName: clavicle_l
       position: {x: -0.15511094, y: -0.000000005515176, z: 0.00000011766329}
-      rotation: {x: 0.015723761, y: 0.008493926, z: 0.023672553, w: 0.99956}
+      rotation: {x: 0.015723763, y: 0.008493927, z: 0.023672555, w: 0.99956006}
       scale: {x: 1, y: 1, z: 1}
     - name: lowerarm_l
       parentName: upperarm_l
       position: {x: -0.26651374, y: 0.0000002783537, z: 0.000000025406479}
-      rotation: {x: 0.03461232, y: 0.021129576, z: 0.030343866, w: 0.99871665}
+      rotation: {x: 0.034612317, y: 0.021129576, z: 0.030343862, w: 0.99871665}
       scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
     - name: lowerarm_twist_02_l
       parentName: lowerarm_l
@@ -1023,12 +1887,12 @@ ModelImporter:
     - name: hand_l
       parentName: lowerarm_twist_01_l
       position: {x: -0.044942815, y: -0.000000023841856, z: -0.000000052452087}
-      rotation: {x: -0.70810276, y: -0.05068015, z: -0.09753439, w: 0.697502}
+      rotation: {x: -0.7135188, y: 0.0030449748, z: -0.0524545, w: 0.69866323}
       scale: {x: 0.9999999, y: 0.9999998, z: 1}
     - name: index_metacarpal_l
       parentName: hand_l
       position: {x: -0.01653507, y: -0.00018270373, z: -0.029600209}
-      rotation: {x: 0.015760932, y: -0.012365758, z: 0.017331336, w: 0.9996491}
+      rotation: {x: 0.017111314, y: -0.057703167, z: -0.0038143396, w: 0.99817985}
       scale: {x: 1, y: 0.9999999, z: 0.99999994}
     - name: index_01_l
       parentName: index_metacarpal_l
@@ -1048,7 +1912,7 @@ ModelImporter:
     - name: middle_metacarpal_l
       parentName: hand_l
       position: {x: -0.02185621, y: 0.0017253065, z: -0.0059837434}
-      rotation: {x: 0.0060747243, y: 0.0057311784, z: 0.038277354, w: 0.99923223}
+      rotation: {x: 0.0061806105, y: -0.061198268, z: 0.010203575, w: 0.9980544}
       scale: {x: 1, y: 1, z: 1}
     - name: middle_01_l
       parentName: middle_metacarpal_l
@@ -1068,7 +1932,7 @@ ModelImporter:
     - name: pinky_metacarpal_l
       parentName: hand_l
       position: {x: -0.017616004, y: 0.009753065, z: 0.033813976}
-      rotation: {x: -0.039083615, y: 0.018389592, z: 0.07757838, w: 0.9960502}
+      rotation: {x: -0.038331863, y: -0.05597006, z: 0.031836405, w: 0.99718827}
       scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
     - name: pinky_01_l
       parentName: pinky_metacarpal_l
@@ -1078,7 +1942,7 @@ ModelImporter:
     - name: pinky_02_l
       parentName: pinky_01_l
       position: {x: -0.02827441, y: -0.0008925748, z: -0.0010433459}
-      rotation: {x: -0.0013831026, y: -0.015059538, z: -0.019568693, w: 0.9996941}
+      rotation: {x: -0.0013831026, y: -0.015059539, z: -0.019568693, w: 0.99969417}
       scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
     - name: pinky_03_l
       parentName: pinky_02_l
@@ -1088,12 +1952,12 @@ ModelImporter:
     - name: ring_metacarpal_l
       parentName: hand_l
       position: {x: -0.022073682, y: 0.0036250907, z: 0.0136382645}
-      rotation: {x: -0.029620964, y: 0.01641749, z: 0.06871583, w: 0.9970613}
+      rotation: {x: -0.03063859, y: -0.049218707, z: 0.03662634, w: 0.99764585}
       scale: {x: 1, y: 1.0000001, z: 0.99999994}
     - name: ring_01_l
       parentName: ring_metacarpal_l
       position: {x: -0.0702949, y: 0.0061968383, z: -0.0014459944}
-      rotation: {x: -0.05043528, y: -0.009980934, z: -0.14559728, w: 0.9880071}
+      rotation: {x: -0.05043528, y: -0.009980935, z: -0.14559728, w: 0.9880072}
       scale: {x: 0.99999994, y: 1, z: 0.9999999}
     - name: ring_02_l
       parentName: ring_01_l
@@ -1113,7 +1977,7 @@ ModelImporter:
     - name: thumb_02_l
       parentName: thumb_01_l
       position: {x: -0.059336416, y: 0.00044830798, z: 0.00040106534}
-      rotation: {x: -0.0070190686, y: 0.02279119, z: -0.11831053, w: 0.9926902}
+      rotation: {x: -0.007019069, y: 0.022791192, z: -0.11831054, w: 0.99269027}
       scale: {x: 1, y: 1, z: 1}
     - name: thumb_03_l
       parentName: thumb_02_l
@@ -1216,12 +2080,12 @@ ModelImporter:
     - name: upperarm_r
       parentName: clavicle_r
       position: {x: 0.15511413, y: -0.0000002967409, z: 0.0000090149415}
-      rotation: {x: 0.015722953, y: 0.008435769, z: 0.023671348, w: 0.99956053}
+      rotation: {x: 0.015722955, y: 0.008435769, z: 0.02367135, w: 0.99956053}
       scale: {x: 1, y: 1.0000001, z: 0.99999994}
     - name: lowerarm_r
       parentName: upperarm_r
       position: {x: 0.26652226, y: -0.00000010311604, z: -0.000020389929}
-      rotation: {x: 0.03461623, y: 0.021163434, z: 0.030352961, w: 0.9987154}
+      rotation: {x: 0.034616232, y: 0.021163436, z: 0.030352963, w: 0.99871546}
       scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
     - name: lowerarm_twist_02_r
       parentName: lowerarm_r
@@ -1237,12 +2101,12 @@ ModelImporter:
     - name: hand_r
       parentName: lowerarm_twist_01_r
       position: {x: 0.04494388, y: -0.0000013399124, z: 0.000000065863134}
-      rotation: {x: -0.7081048, y: -0.050679762, z: -0.09753872, w: 0.6974994}
+      rotation: {x: -0.713521, y: 0.0030617905, z: -0.052445047, w: 0.6986616}
       scale: {x: 1, y: 1.0000001, z: 1.0000002}
     - name: index_metacarpal_r
       parentName: hand_r
       position: {x: 0.016534077, y: 0.00018063307, z: 0.029600501}
-      rotation: {x: 0.015761357, y: -0.012367936, z: 0.017331673, w: 0.99964905}
+      rotation: {x: 0.017111981, y: -0.057711877, z: -0.0038238433, w: 0.9981793}
       scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
     - name: index_01_r
       parentName: index_metacarpal_r
@@ -1262,7 +2126,7 @@ ModelImporter:
     - name: middle_metacarpal_r
       parentName: hand_r
       position: {x: 0.021856911, y: -0.0017261391, z: 0.0059833764}
-      rotation: {x: 0.0060755, y: 0.005734241, z: 0.03827414, w: 0.9992324}
+      rotation: {x: 0.0061817737, y: -0.061204653, z: 0.010188631, w: 0.9980541}
       scale: {x: 1, y: 0.99999994, z: 1}
     - name: middle_01_r
       parentName: middle_metacarpal_r
@@ -1282,7 +2146,7 @@ ModelImporter:
     - name: pinky_metacarpal_r
       parentName: hand_r
       position: {x: 0.017617568, y: -0.009752588, z: -0.03381467}
-      rotation: {x: -0.03908299, y: 0.018390791, z: 0.07758045, w: 0.99605006}
+      rotation: {x: -0.03833256, y: -0.055973224, z: 0.03183127, w: 0.9971882}
       scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
     - name: pinky_01_r
       parentName: pinky_metacarpal_r
@@ -1302,7 +2166,7 @@ ModelImporter:
     - name: ring_metacarpal_r
       parentName: hand_r
       position: {x: 0.022073118, y: -0.0036262595, z: -0.0136385625}
-      rotation: {x: -0.029619478, y: 0.016419338, z: 0.06871264, w: 0.99706155}
+      rotation: {x: -0.030637331, y: -0.04922218, z: 0.0366145, w: 0.99764615}
       scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
     - name: ring_01_r
       parentName: ring_metacarpal_r
@@ -1312,7 +2176,7 @@ ModelImporter:
     - name: ring_02_r
       parentName: ring_01_r
       position: {x: 0.03617211, y: 0.0046483753, z: 0.0010260439}
-      rotation: {x: -0.0016078822, y: -0.016900744, z: 0.012911869, w: 0.9997725}
+      rotation: {x: -0.0016078822, y: -0.016900746, z: 0.012911869, w: 0.99977255}
       scale: {x: 1, y: 0.99999994, z: 1}
     - name: ring_03_r
       parentName: ring_02_r
@@ -1327,7 +2191,7 @@ ModelImporter:
     - name: thumb_02_r
       parentName: thumb_01_r
       position: {x: 0.059335634, y: -0.00044795513, z: -0.00040093422}
-      rotation: {x: -0.007023061, y: 0.022780908, z: -0.11829954, w: 0.99269176}
+      rotation: {x: -0.0070230616, y: 0.022780908, z: -0.118299544, w: 0.99269176}
       scale: {x: 0.9999999, y: 0.99999994, z: 1}
     - name: thumb_03_r
       parentName: thumb_02_r
@@ -1398,7 +2262,7 @@ ModelImporter:
     - name: dyn_hood_bk_r_04
       parentName: dyn_hood_shoulder_pin_bk_r
       position: {x: 0.0050238324, y: 0.0035245705, z: 0.013523903}
-      rotation: {x: -0.1303192, y: -0.572576, z: 0.05453546, w: 0.8075887}
+      rotation: {x: -0.13031921, y: -0.572576, z: 0.054535463, w: 0.8075887}
       scale: {x: 1.0000001, y: 1, z: 1}
     - name: dyn_hood_bk_r_03
       parentName: dyn_hood_bk_r_04
@@ -1787,7 +2651,7 @@ ModelImporter:
     - name: thigh_l
       parentName: pelvis
       position: {x: 0.025693232, y: 0.000108687804, z: -0.07750068}
-      rotation: {x: 0.0012371062, y: 0.05716143, z: -0.015462987, w: 0.9982444}
+      rotation: {x: 0.0012371063, y: 0.05716143, z: -0.015462988, w: 0.9982444}
       scale: {x: 1, y: 0.9999998, z: 1}
     - name: calf_l
       parentName: thigh_l
@@ -1828,7 +2692,7 @@ ModelImporter:
     - name: calf_r
       parentName: thigh_r
       position: {x: -0.39054945, y: -0.0000020350328, z: -0.00020106189}
-      rotation: {x: 0.00063058553, y: -0.016324077, z: 0.039058983, w: 0.99910337}
+      rotation: {x: 0.0006305856, y: -0.016324077, z: 0.039058987, w: 0.99910337}
       scale: {x: 0.99999994, y: 1, z: 0.99999994}
     - name: foot_r
       parentName: calf_r
@@ -2025,11 +2889,6 @@ ModelImporter:
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: M_MED_Galileo_Kayak_Pack.mo
-      parentName: NewKylo(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-      scale: {x: 10.000002, y: 10.000002, z: 10.000002}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -2037,13 +2896,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

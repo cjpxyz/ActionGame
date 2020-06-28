@@ -31,6 +31,8 @@ TagManager:
   - Interactable
   - AIAction
   - Fire
+  - Projectile
+  - MainLight
   layers:
   - Default
   - TransparentFX
@@ -52,11 +54,11 @@ TagManager:
   - BlockAIRayCast
   - PostProcessVolume
   - Ground
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - PlayerAttack
+  - EnemyAttack
+  - TargetLook
+  - Wall
   - 
   - 
   - 

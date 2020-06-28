@@ -1,103 +1,312 @@
 fileFormatVersion: 2
 guid: 9dbdfe57c15a3104184bfcbb4f08d017
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Cylinder
-    100002: Cylinder.001
-    100004: Cylinder.002
-    100006: Cylinder.003
-    100008: Cylinder.004
-    100010: Cylinder.006
-    100012: Cylinder.007
-    100014: Cylinder.008
-    100016: Cylinder.009
-    100018: Cylinder.010
-    100020: Cylinder.011
-    100022: Cylinder.012
-    100024: //RootNode
-    100026: SaberMain
-    100028: SaberSub
-    100030: "\u30B1\u30FC\u30D6\u30EB\u4E38.002"
-    100032: "\u30B1\u30FC\u30D6\u30EB\u8D64"
-    100034: "\u30B1\u30FC\u30D6\u30EB\u9280"
-    400000: Cylinder
-    400002: Cylinder.001
-    400004: Cylinder.002
-    400006: Cylinder.003
-    400008: Cylinder.004
-    400010: Cylinder.006
-    400012: Cylinder.007
-    400014: Cylinder.008
-    400016: Cylinder.009
-    400018: Cylinder.010
-    400020: Cylinder.011
-    400022: Cylinder.012
-    400024: //RootNode
-    400026: SaberMain
-    400028: SaberSub
-    400030: "\u30B1\u30FC\u30D6\u30EB\u4E38.002"
-    400032: "\u30B1\u30FC\u30D6\u30EB\u8D64"
-    400034: "\u30B1\u30FC\u30D6\u30EB\u9280"
-    2100000: matblack
-    2100002: Material.004
-    2100004: Material.002
-    2100006: metalsilver
-    2100008: saberRed
-    2300000: Cylinder
-    2300002: Cylinder.001
-    2300004: Cylinder.002
-    2300006: Cylinder.003
-    2300008: Cylinder.004
-    2300010: Cylinder.006
-    2300012: Cylinder.007
-    2300014: Cylinder.008
-    2300016: Cylinder.009
-    2300018: Cylinder.010
-    2300020: Cylinder.011
-    2300022: Cylinder.012
-    2300024: "\u30B1\u30FC\u30D6\u30EB\u4E38.002"
-    2300026: "\u30B1\u30FC\u30D6\u30EB\u8D64"
-    2300028: "\u30B1\u30FC\u30D6\u30EB\u9280"
-    3300000: Cylinder
-    3300002: Cylinder.001
-    3300004: Cylinder.002
-    3300006: Cylinder.003
-    3300008: Cylinder.004
-    3300010: Cylinder.006
-    3300012: Cylinder.007
-    3300014: Cylinder.008
-    3300016: Cylinder.009
-    3300018: Cylinder.010
-    3300020: Cylinder.011
-    3300022: Cylinder.012
-    3300024: "\u30B1\u30FC\u30D6\u30EB\u4E38.002"
-    3300026: "\u30B1\u30FC\u30D6\u30EB\u8D64"
-    3300028: "\u30B1\u30FC\u30D6\u30EB\u9280"
-    4300000: Cylinder
-    4300002: Cylinder.002
-    4300004: Cylinder.003
-    4300006: Cylinder.004
-    4300008: Cylinder.006
-    4300010: Cylinder.007
-    4300012: Cylinder.008
-    4300014: Cylinder.009
-    4300016: Cylinder.011
-    4300018: Cylinder.012
-    4300020: "\u30B1\u30FC\u30D6\u30EB\u9280"
-    4300022: "\u30B1\u30FC\u30D6\u30EB\u4E38.002"
-    4300024: "\u30B1\u30FC\u30D6\u30EB\u8D64"
-    4300026: Cylinder.001
-    4300028: Cylinder.010
-    4300030: SaberMain
-    4300032: SaberSub
-    9500000: //RootNode
-    13700000: SaberMain
-    13700002: SaberSub
-    2186277476908879412: ImportLogs
-  externalObjects: {}
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Cylinder
+  - first:
+      1: 100002
+    second: Cylinder.001
+  - first:
+      1: 100004
+    second: Cylinder.002
+  - first:
+      1: 100006
+    second: Cylinder.003
+  - first:
+      1: 100008
+    second: Cylinder.004
+  - first:
+      1: 100010
+    second: Cylinder.006
+  - first:
+      1: 100012
+    second: Cylinder.007
+  - first:
+      1: 100014
+    second: Cylinder.008
+  - first:
+      1: 100016
+    second: Cylinder.009
+  - first:
+      1: 100018
+    second: Cylinder.010
+  - first:
+      1: 100020
+    second: Cylinder.011
+  - first:
+      1: 100022
+    second: Cylinder.012
+  - first:
+      1: 100024
+    second: //RootNode
+  - first:
+      1: 100026
+    second: SaberMain
+  - first:
+      1: 100028
+    second: SaberSub
+  - first:
+      1: 100030
+    second: "\u30B1\u30FC\u30D6\u30EB\u4E38.002"
+  - first:
+      1: 100032
+    second: "\u30B1\u30FC\u30D6\u30EB\u8D64"
+  - first:
+      1: 100034
+    second: "\u30B1\u30FC\u30D6\u30EB\u9280"
+  - first:
+      4: 400000
+    second: Cylinder
+  - first:
+      4: 400002
+    second: Cylinder.001
+  - first:
+      4: 400004
+    second: Cylinder.002
+  - first:
+      4: 400006
+    second: Cylinder.003
+  - first:
+      4: 400008
+    second: Cylinder.004
+  - first:
+      4: 400010
+    second: Cylinder.006
+  - first:
+      4: 400012
+    second: Cylinder.007
+  - first:
+      4: 400014
+    second: Cylinder.008
+  - first:
+      4: 400016
+    second: Cylinder.009
+  - first:
+      4: 400018
+    second: Cylinder.010
+  - first:
+      4: 400020
+    second: Cylinder.011
+  - first:
+      4: 400022
+    second: Cylinder.012
+  - first:
+      4: 400024
+    second: //RootNode
+  - first:
+      4: 400026
+    second: SaberMain
+  - first:
+      4: 400028
+    second: SaberSub
+  - first:
+      4: 400030
+    second: "\u30B1\u30FC\u30D6\u30EB\u4E38.002"
+  - first:
+      4: 400032
+    second: "\u30B1\u30FC\u30D6\u30EB\u8D64"
+  - first:
+      4: 400034
+    second: "\u30B1\u30FC\u30D6\u30EB\u9280"
+  - first:
+      21: 2100000
+    second: matblack
+  - first:
+      21: 2100002
+    second: Material.004
+  - first:
+      21: 2100004
+    second: Material.002
+  - first:
+      21: 2100006
+    second: metalsilver
+  - first:
+      21: 2100008
+    second: saberRed
+  - first:
+      23: 2300000
+    second: Cylinder
+  - first:
+      23: 2300002
+    second: Cylinder.001
+  - first:
+      23: 2300004
+    second: Cylinder.002
+  - first:
+      23: 2300006
+    second: Cylinder.003
+  - first:
+      23: 2300008
+    second: Cylinder.004
+  - first:
+      23: 2300010
+    second: Cylinder.006
+  - first:
+      23: 2300012
+    second: Cylinder.007
+  - first:
+      23: 2300014
+    second: Cylinder.008
+  - first:
+      23: 2300016
+    second: Cylinder.009
+  - first:
+      23: 2300018
+    second: Cylinder.010
+  - first:
+      23: 2300020
+    second: Cylinder.011
+  - first:
+      23: 2300022
+    second: Cylinder.012
+  - first:
+      23: 2300024
+    second: "\u30B1\u30FC\u30D6\u30EB\u4E38.002"
+  - first:
+      23: 2300026
+    second: "\u30B1\u30FC\u30D6\u30EB\u8D64"
+  - first:
+      23: 2300028
+    second: "\u30B1\u30FC\u30D6\u30EB\u9280"
+  - first:
+      33: 3300000
+    second: Cylinder
+  - first:
+      33: 3300002
+    second: Cylinder.001
+  - first:
+      33: 3300004
+    second: Cylinder.002
+  - first:
+      33: 3300006
+    second: Cylinder.003
+  - first:
+      33: 3300008
+    second: Cylinder.004
+  - first:
+      33: 3300010
+    second: Cylinder.006
+  - first:
+      33: 3300012
+    second: Cylinder.007
+  - first:
+      33: 3300014
+    second: Cylinder.008
+  - first:
+      33: 3300016
+    second: Cylinder.009
+  - first:
+      33: 3300018
+    second: Cylinder.010
+  - first:
+      33: 3300020
+    second: Cylinder.011
+  - first:
+      33: 3300022
+    second: Cylinder.012
+  - first:
+      33: 3300024
+    second: "\u30B1\u30FC\u30D6\u30EB\u4E38.002"
+  - first:
+      33: 3300026
+    second: "\u30B1\u30FC\u30D6\u30EB\u8D64"
+  - first:
+      33: 3300028
+    second: "\u30B1\u30FC\u30D6\u30EB\u9280"
+  - first:
+      43: 4300000
+    second: Cylinder
+  - first:
+      43: 4300002
+    second: Cylinder.002
+  - first:
+      43: 4300004
+    second: Cylinder.003
+  - first:
+      43: 4300006
+    second: Cylinder.004
+  - first:
+      43: 4300008
+    second: Cylinder.006
+  - first:
+      43: 4300010
+    second: Cylinder.007
+  - first:
+      43: 4300012
+    second: Cylinder.008
+  - first:
+      43: 4300014
+    second: Cylinder.009
+  - first:
+      43: 4300016
+    second: Cylinder.011
+  - first:
+      43: 4300018
+    second: Cylinder.012
+  - first:
+      43: 4300020
+    second: "\u30B1\u30FC\u30D6\u30EB\u9280"
+  - first:
+      43: 4300022
+    second: "\u30B1\u30FC\u30D6\u30EB\u4E38.002"
+  - first:
+      43: 4300024
+    second: "\u30B1\u30FC\u30D6\u30EB\u8D64"
+  - first:
+      43: 4300026
+    second: Cylinder.001
+  - first:
+      43: 4300028
+    second: Cylinder.010
+  - first:
+      43: 4300030
+    second: SaberMain
+  - first:
+      43: 4300032
+    second: SaberSub
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: SaberMain
+  - first:
+      137: 13700002
+    second: SaberSub
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 5c7c2e1cf6b7f7942a3bdd41ef551f62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: cf655113fc441a04dadf90db8e966aa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: matblack
+    second: {fileID: 2100000, guid: 297171ba8effb2645bd2f857009e3771, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalsilver
+    second: {fileID: 2100000, guid: 623b9001a4d342740b05b12d0af5deb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saberRed
+    second: {fileID: 2100000, guid: 52a5fdee72ab91d43af69e5d0ee83060, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -130,25 +339,28 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -157,10 +369,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -170,13 +382,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
