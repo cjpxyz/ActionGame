@@ -76,6 +76,7 @@ namespace ActionGame
             else if(lookTarget != null)
             {
                 lookTarget = null;
+                lookPosition = null;
                 virtualCamera.Priority = 8;
                 animator.SetBool("lockOn", false);
                 isSearch = false;
@@ -124,61 +125,5 @@ namespace ActionGame
             this.animator.SetLookAtWeight(1.0f, 0.3f, 0.8f, 0.0f, 0.4f);
             this.animator.SetLookAtPosition(lookPosition.transform.position);
         }
-
-        /*protected List<GameObject> FilterTargetObject(List<GameObject> hits)
-        {
-            return hits
-                .Where(h => {
-                    Vector3 screenPoint = Camera.main.WorldToViewportPoint(h.transform.position);
-                    return screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 && screenPoint.y < 1;
-                })
-                .Where(h => h.tag == "Enemy")
-                .ToList();
-        }*/
-
-
-        /* protected void OnTriggerEnter(Collider c)
-         {
-             if (c.gameObject.tag == "Enemy")
-             {
-                 //target = c.gameObject;
-                 lookTarget = c.gameObject;
-                 virtualCamera.Priority = 12;
-                 virtualCamera.LookAt = c.gameObject.transform;
-                 isSearch = true;
-                 lockOn = true;
-             }
-         }
-
-         protected void OnTriggerExit(Collider c)
-         {
-             if (c.gameObject.tag == "Enemy")
-             {
-                 lookTarget = null;
-                 virtualCamera.Priority = 8;
-                 virtualCamera.LookAt = null;
-                 isSearch = false;
-                 lockOn = false;
-             }
-         }
-
-         public GameObject getTarget()
-         {
-             return this.lookTarget;
-         }
-
-         /*public void ChangeLockOnCamera()
-         {
-             if (lockOn)
-             {
-                 freeLookCamera.m_BindingMode = CinemachineTransposer.BindingMode.LockToTarget;
-                 virtualCamera.Priority = 12;
-             }
-             else
-             {
-                 freeLookCamera.m_BindingMode = CinemachineTransposer.BindingMode.SimpleFollowWithWorldUp;
-                 virtualCamera.Priority = 8;
-             }
-         }*/
     }
 }
