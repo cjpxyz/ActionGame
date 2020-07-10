@@ -7,17 +7,28 @@ namespace ActionGame
 {
     public class CharacterStatus : MonoBehaviour
     {
-        public int HP = 100;
-
-        public int GuardHP = 100;
+        [SerializeField]
+        private float HP = 100;
+        [SerializeField]
+        private float GuardHP = 100;
 
         public int Power = 10;
-
         public GameObject lastAttackTarget = null;
-
         //public bool attacking = false;
-
         //public bool died = false;
 
+        void OnTriggerEnter(Collider other)
+        {
+            if(other.gameObject.tag == "EnemyWeapon")
+            {
+                HP -= other.gameObject.GetComponent<WeaponDamage>().power;
+                if (HP <= 0)
+                {
+                    HP = 0;
+                }
+            }
+        }
     }
+
+    
 }

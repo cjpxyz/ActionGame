@@ -33,6 +33,7 @@ TagManager:
   - Fire
   - Projectile
   - MainLight
+  - EnemyWeapon
   layers:
   - Default
   - TransparentFX

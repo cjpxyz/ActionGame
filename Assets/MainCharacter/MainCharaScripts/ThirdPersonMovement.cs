@@ -125,7 +125,7 @@ namespace ActionGame
             characterController.Move(moveDirection * Time.deltaTime);
         }
 
-        void Damage(AttackArea.AttackInfo attackInfo)
+        /*void Damage(AttackArea.AttackInfo attackInfo)
         {
             status.HP -= attackInfo.attackPower;
             if(status.HP <= 0)
@@ -133,7 +133,7 @@ namespace ActionGame
                 status.HP = 0;
             }
             //animator.SetBool("Dead", true);
-        }
+        }*/
 
         void attack() { 
         }
