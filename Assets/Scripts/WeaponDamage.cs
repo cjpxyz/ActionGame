@@ -6,11 +6,17 @@ public class WeaponDamage : MonoBehaviour
 {
     public GameObject HitEffect;
     public float power = 10; //攻撃力
-    public AudioClip HitSonud;
-    private AudioSource audioSource;
 
-    
-	void Start()
+    [SerializeField]
+    AudioClip[] HitSonud;
+    private AudioSource audioSource;
+    [SerializeField] 
+    bool randomizePitch = true;
+    [SerializeField] 
+    float pitchRange = 0.1f;
+
+
+    void Start()
     {
         audioSource = gameObject.GetComponent<AudioSource>();
     }
@@ -20,21 +26,15 @@ public class WeaponDamage : MonoBehaviour
     {
         generateEffect();
     }
-
-    // Update is called once per frame
-    void OnAttack()
-    {
-        GetComponent<Collider>().enabled = true;
-    }
-
-    void OnAttackTermination()
-    {
-        GetComponent<Collider>().enabled = false;
-    }
+    
 
     void generateEffect()
     {
         GameObject effect = Instantiate(HitEffect, transform.position, transform.rotation) as GameObject;
-        audioSource.PlayOneShot(HitSonud);
+        if (randomizePitch)
+        {
+            audioSource.pitch = 1.0f + Random.Range(-pitchRange, pitchRange);
+            audioSource.PlayOneShot(HitSonud[Random.Range(0, HitSonud.Length)]);
+        }
     }
 }

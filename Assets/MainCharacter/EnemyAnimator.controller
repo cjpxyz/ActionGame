@@ -8,7 +8,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Walk
-  m_Speed: 1
+  m_Speed: 0.8
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 7534702122892600330}
@@ -508,7 +508,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BossAnimator
+  m_Name: EnemyAnimator
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: horizontal
@@ -1352,7 +1352,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Twinblades_Attack18_Root
-  m_Speed: 1
+  m_Speed: 0.3
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 4210146855193954739}
@@ -1367,7 +1367,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400002, guid: 6175a052fc6c625439303c1ca92d797a, type: 3}
+  m_Motion: {fileID: 7400000, guid: 225e5cf282ca819458afc844c3f9cfbe, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

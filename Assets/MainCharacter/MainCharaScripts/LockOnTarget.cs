@@ -59,7 +59,7 @@ namespace ActionGame
                     {
                         lookTarget = target;
                         lookPosition = target.transform.Find("LookPosition");
-                        virtualCamera.LookAt = lookTarget.transform;
+                        virtualCamera.LookAt = lookTarget.transform.Find("LookPosition");
                         virtualCamera.Priority = 12;
                         animator.SetBool("lockOn", true);
                         isSearch = true;
