@@ -56,7 +56,9 @@ namespace ActionGame
             }
             var input = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
 
-            if (input.magnitude > 0.1f && (animator.GetBool("Attack") == false)
+            if (input.magnitude > 0.1f && !animator.GetCurrentAnimatorStateInfo(0).IsName("Attack1")
+                && !animator.GetCurrentAnimatorStateInfo(0).IsName("Attack2")
+                && !animator.GetCurrentAnimatorStateInfo(0).IsName("Attack3")
                                        && (animator.GetBool("HeavyAttack") == false)
                                        && (animator.GetBool("dash") == false))
             {

@@ -8,6 +8,7 @@ namespace ActionGame
 {
     public class CharacterStatus : MonoBehaviour
     {
+        [SerializeField] private GameObject Self;
         [SerializeField]
         private float HP = 100;
         [SerializeField]
@@ -43,6 +44,7 @@ namespace ActionGame
                 {
                     HP = 0;
                     animator.SetTrigger("dead");
+                    Self.layer = LayerMask.NameToLayer("Default");
                 }
             }
         }
